@@ -1,6 +1,4 @@
 # PIZZA-Palace
-A Web application where customers order different sizes of pizzas with one or more toppings. 
-
 [KIPKEMOI RONO ELVIS](https://github.com/DynastyElvis)
 
 
@@ -33,7 +31,7 @@ A Web application where customers order different sizes of pizzas with one or mo
 
 [Go Back to the top](#PIZZA-Palace)
 ## Description
-a small book like a form in which one writes the names, addresses, acquaintances and telephone numbers of people one knows
+A Web application where customers order different sizes of pizzas with one or more toppings. 
 
 
 [Go Back to the top](#PIZZA-Palace)
