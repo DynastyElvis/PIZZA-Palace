@@ -95,7 +95,7 @@ https://www.codegrepper.com/app/index.php
 
 ## Licence
 
-[MIT LICENCE](https://github.com/DynastyElvis/Simple-Address-Book/blob/main/LICENSE)
+[MIT LICENCE](https://github.com/DynastyElvis/PIZZA-Palace/blob/main/LICENSE)
 
 2022
 
