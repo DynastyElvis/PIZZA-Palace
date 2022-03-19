@@ -1,6 +1,5 @@
 # PIZZA-Palace
-A Web application where your customers order different sizes of pizzas with one or more toppings. 
-## SIMPLE ADDRESS BOOK
+A Web application where customers order different sizes of pizzas with one or more toppings. 
 
 [KIPKEMOI RONO ELVIS](https://github.com/DynastyElvis)
 
@@ -23,18 +22,21 @@ A Web application where your customers order different sizes of pizzas with one 
 *[Licence](#Licence)
 
 
+*[Known Bugs](#Known-Bugs)
+
+
 *[Authors Info](#Authors-Info)
 
 
 
 
 
-[Go Back to the top](#SIMPLE-ADDRESS-BOOK)
+[Go Back to the top](#PIZZA-Palace)
 ## Description
 a small book like a form in which one writes the names, addresses, acquaintances and telephone numbers of people one knows
 
 
-[Go Back to the top](#SIMPLE-ADDRESS-BOOK)
+[Go Back to the top](#PIZZA-Palace)
 
 ## Screenshot
 <img src="https://github.com/DynastyElvis/Simple-Address-Book/blob/main/Screenshot%20from%202022-03-16%2009-09-24.png" width="800px" height="400px">
@@ -43,7 +45,7 @@ a small book like a form in which one writes the names, addresses, acquaintances
 
 
 
-[Go Back to the top](#SIMPLE-ADDRESS-BOOK)
+[Go Back to the top](#PIZZA-Palace)
 
 ## Installation
 * Open Terminal {Ctrl+Alt+T}
@@ -57,7 +59,7 @@ a small book like a form in which one writes the names, addresses, acquaintances
 * To access the site, open your browser and put in the link URL.
 
 
-[Go Back to the top](#SIMPLE-ADDRESS-BOOK)
+[Go Back to the top](#PIZZA-Palace)
 
 ## Installation Requirements
 
@@ -67,7 +69,7 @@ a small book like a form in which one writes the names, addresses, acquaintances
 
 * Updated version of your browser
 
-[Go Back to the top](#SIMPLE-ADDRESS-BOOK)
+[Go Back to the top](#PIZZA-Palace)
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
@@ -76,7 +78,7 @@ a small book like a form in which one writes the names, addresses, acquaintances
 
 * Javascript - Adding interactive behavior to web pages.
 
-[Go Back to the top](#SIMPLE-ADDRESS-BOOK)
+[Go Back to the top](#PIZZA-Palace)
 
 ## Reference
 https://www.youtube.com/watch?v=D-h8L5hgW-w
@@ -89,7 +91,7 @@ https://materializecss.com/
 
 https://www.codegrepper.com/app/index.php
 
-[Go Back to the top](#SIMPLE-ADDRESS-BOOK)
+[Go Back to the top](#PIZZA-Palace)
 
 ## Licence
 
@@ -97,7 +99,7 @@ https://www.codegrepper.com/app/index.php
 
 2022
 
-[Go Back to the top](#SIMPLE-ADDRESS-BOOK)
+[Go Back to the top](#PIZZA-Palace)
 
 ## Authors Info
 LinkedIn - [KIPKEMOI ELVIS RONO](https://www.linkedin.com/in/elvis-rono-aa3548209/)
@@ -106,6 +108,6 @@ kipkemoi.rono@student.moringaschool.com
 
 kipkemoilvs@gmail.com
 
-[Go Back to the top](#SIMPLE-ADDRESS-BOOK)
+[Go Back to the top](#PIZZA-Palace)
 
 
