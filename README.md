@@ -50,9 +50,9 @@ a small book like a form in which one writes the names, addresses, acquaintances
 ## Installation
 * Open Terminal {Ctrl+Alt+T}
 
-* git clone ```https://github.com/DynastyElvis/Simple-Address-Book```
+* git clone ```https://github.com/DynastyElvis/PIZZA-Palace```
 
-* cd ```Simple-Address-Book```
+* cd ```PIZZA Palace```
 
 * code . or atom . based on the text editor you have.
 
@@ -98,6 +98,12 @@ https://www.codegrepper.com/app/index.php
 [MIT LICENCE](https://github.com/DynastyElvis/Simple-Address-Book/blob/main/LICENSE)
 
 2022
+
+[Go Back to the top](#PIZZA-Palace)
+
+## Known Bugs
+
+No Known Bugs.
 
 [Go Back to the top](#PIZZA-Palace)
 
