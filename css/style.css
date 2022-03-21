@@ -177,3 +177,47 @@ td,th{
   color:rgb(255, 255, 255);
   text-align: left;
 }
+#your-orders{
+  color: white;
+  font-size: 30px;
+}
+
+#contact h2{
+  text-align: center;
+}
+#contact{
+  color: black;
+}
+#contactdetails h2{
+  text-align: left;
+}
+.footer{
+  padding-top: 5%;
+}
+#addedprice{
+  display: none;
+}
+#finallmessage{
+  display: none;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 28px;
+}
+#regards{
+  text-align: center;
+  color: aliceblue;
+}
+#information{
+  padding-top: 5%;
+  font-size: 22px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color: #ffffff;
+}
+@media only screen and (max-width: 485px){
+  .flex-xs-column {
+    flex-direction: column;
+  }
+}
+
