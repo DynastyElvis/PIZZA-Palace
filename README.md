@@ -37,7 +37,7 @@ A Web application where customers order different sizes of pizzas with one or mo
 [Go Back to the top](#PIZZA-Palace)
 
 ## Screenshot
-<img src="https://" width="800px" height="400px">
+<img src="https://github.com/DynastyElvis/PIZZA-Palace/blob/main/Screenshot%20from%202022-03-21%2010-51-07.png" width="800px" height="400px">
 
 [LIVE LINK >>](https://dynastyelvis.github.io/Simple-Address-Book/)
 
