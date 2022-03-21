@@ -54,3 +54,38 @@ h1 {
   font-size: 60px;
   text-shadow: 2px 2px 5px rgb(22, 20, 20);
 }
+
+h5 {
+  letter-spacing: 3px;
+}
+#overlay{
+  background-color: rgba(243, 229, 229, 0.1);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+#head{
+  padding-top: 10%;
+}
+
+.button{
+  border-radius: 10px;
+}
+.card-title{
+  text-align: center;
+  color: #ffa500;
+  font-weight: 800;
+}
+.controls-top h2{
+  color: rgba(233, 14, 14, 0.842);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+.col-md-4{
+  border-radius: 10%;
+  padding: 10px;
+}
+#about-us{
+  min-height: 70vh;
+  align-items: center;
