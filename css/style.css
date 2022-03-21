@@ -1,1 +1,19 @@
-head
+.home{
+  background-image: url("../images/jon-tyson-ZA9PHAnVP5g-unsplash.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  padding-bottom: 20px;
+  position: relative;
+  overflow-x: hidden;
+  background-color: rgb(243, 169, 8);;
+}
+
+.text h5{
+  font-size: 25px;
+  padding: 30px;
+}
+nav .navbar{
+  width: 99%;
+  padding-right: 0px;
