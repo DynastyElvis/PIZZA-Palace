@@ -95,7 +95,32 @@ $(document).ready(function(){
       $("div.choise").hide();
       alert("Please select pizza size and crust"); 
     }
+    else{
+      $("button.proceed").hide();
+      $("#information").hide();
+      $("div.choise").slideDown(1000);
+    }
+
+    total = price + crust_price + topping_value;
+    console.log(total);
+    let checkoutTotal =0;
+    checkoutTotal = checkoutTotal + total;
+
+    $("#pizzaname").html($(".name option:selected").val());
+    $("#pizzasize").html( $("#size option:selected").val());
+    $("#pizzacrust").html($("#crust option:selected").val());
+    $("#pizzatopping").html(ptopping.join(", "));
+    $("#totals").html(total);
     
+    $("button.addPizza").click(function(){
+      let pname = $(".name option:selected").val();
+      let psize = $("#size option:selected").val();
+      let pcrust = $("#crust option:selected").val();
+      let ptopping = [];
+      $.each($("input[name='toppings']:checked"), function(){            
+          ptopping.push($(this).val());
+      });
+
     });
     
    event.preventDefault();
