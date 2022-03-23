@@ -42,7 +42,8 @@ function Getpizza( name,size,crust,topping, total ){
 }
 
 $(document).ready(function(){
-  
+  // function assignments
+
   $("button.proceed").click(function(event){
    let pname = $(".name option:selected").val();
    let psize = $("#size option:selected").val();
@@ -51,7 +52,10 @@ $(document).ready(function(){
    $.each($("input[name='toppings']:checked"), function(){            
        ptopping.push($(this).val());
    });
-  switch(psize){
+
+   console.log(ptopping.join("topping!"));
+//beggining of conditional cases for large, medium and small pizzas
+   switch(psize){
     case "0":
       price =0;
     break;
@@ -59,7 +63,7 @@ $(document).ready(function(){
        price = 1500;
        console.log(price);
      break;
-     case "medium":
+     case "medium"://medium
        price = 1200;
        console.log("The price is "+price);
      break;
@@ -69,7 +73,9 @@ $(document).ready(function(){
      default:
        console.log("error"); 
    }
-    switch(pcrust){
+
+   //beining of crust case
+   switch(pcrust){
       case "0":
         crust = 0;
       break;
@@ -84,34 +90,39 @@ $(document).ready(function(){
       break;
       default:
         console.log("No price"); 
-    }
-     let topping_value = ptopping.length*50;
-    console.log("toppins value" + topping_value);
 
+        //end of the crust case conditional statement
+    }
+    //toppings value at 65 each
+    let topping_value = ptopping.length*65;
+    console.log("toppins value" + topping_value);
+    //empty selection
     if((psize == "0") && (pcrust == "0")){
       console.log("nothing selected");
       $("button.proceed").show();
       $("#information").show();
       $("div.choise").hide();
-      alert("Please select pizza size and crust"); 
+      alert("Please select pizza size and crust"); //pop up warning to select
     }
+    // conditional else
     else{
       $("button.proceed").hide();
       $("#information").hide();
       $("div.choise").slideDown(1000);
     }
 
-    total = price + crust_price + topping_value;
-    console.log(total);
+    total = price + crust_price + topping_value;//tally
+    console.log(total);//pop tally
     let checkoutTotal =0;
-    checkoutTotal = checkoutTotal + total;
+    checkoutTotal = checkoutTotal + total;//checkout
 
     $("#pizzaname").html($(".name option:selected").val());
     $("#pizzasize").html( $("#size option:selected").val());
     $("#pizzacrust").html($("#crust option:selected").val());
     $("#pizzatopping").html(ptopping.join(", "));
     $("#totals").html(total);
-    
+
+    //add another pizza on list
     $("button.addPizza").click(function(){
       let pname = $(".name option:selected").val();
       let psize = $("#size option:selected").val();
@@ -120,7 +131,10 @@ $(document).ready(function(){
       $.each($("input[name='toppings']:checked"), function(){            
           ptopping.push($(this).val());
       });
-console.log(ptopping.join(" top "));
+
+
+      // console prices after users input
+      console.log(ptopping.join(" top ")); // defining pizza sizes according to price for user selection
       switch(psize){
         case "0":
           price =0;
@@ -137,8 +151,9 @@ console.log(ptopping.join(" top "));
            price = 1000;
            console.log(price);
          default:
-           console.log("make some corrections"); 
-}
+           console.log("make some corrections"); //faulty
+//switch to crust prices
+       }
        switch(pcrust){
           case "0":
             crust_price = 0;
@@ -153,7 +168,7 @@ console.log(ptopping.join(" top "));
             crust_price = 180;
           break;
           default:
-            console.log("price not applicable"); 
+            console.log("price not applicable"); // error
 
         }
         let topping_value = ptopping.length*50;
@@ -163,8 +178,23 @@ console.log(ptopping.join(" top "));
 
         checkoutTotal = checkoutTotal + total;
         console.log(checkoutTotal);
-       }
-                               
+        
+      // the constractor function
+      var newOrder = new Getpizza(pname, psize, pcrust,ptopping,total);
+
+      $("#ordersmade").append('<tr><td id="pizzaname">'+newOrder.name +'</td><td id="pizzasize">' + newOrder.size + '</td><td id="pizzacrust">'+newOrder.crust + '</td><td id="pizzatopping">'+newOrder.topping+'</td><td id="totals">'+newOrder.total+'</td></tr>');
+      console.log(newOrder);
+
+
+    });
+    // final Checkout button
+    $("button#checkout").click(function(){ 
+      $("button#checkout").hide();
+      $("button.addPizza").hide();
+      $("button.deliver").slideDown(1000);
+      $("#addedprice").slideDown(1000);
+      console.log("Your total bills is sh. "+checkoutTotal);
+      $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
     });
     
    event.preventDefault();
