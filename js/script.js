@@ -40,3 +40,20 @@ function Getpizza( name,size,crust,topping, total ){
   this.topping = topping;
   this.total = total;
 }
+
+$(document).ready(function(){
+  
+  $("button.proceed").click(function(event){
+   let pname = $(".name option:selected").val();
+   let psize = $("#size option:selected").val();
+   let pcrust = $("#crust option:selected").val();
+   let ptopping = [];
+   $.each($("input[name='toppings']:checked"), function(){            
+       ptopping.push($(this).val());
+   });
+  
+    });
+    
+   event.preventDefault();
+  });
+});
