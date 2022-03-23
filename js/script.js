@@ -88,7 +88,13 @@ $(document).ready(function(){
      let topping_value = ptopping.length*50;
     console.log("toppins value" + topping_value);
 
-    
+    if((psize == "0") && (pcrust == "0")){
+      console.log("nothing selected");
+      $("button.proceed").show();
+      $("#information").show();
+      $("div.choise").hide();
+      alert("Please select pizza size and crust"); 
+    }
     
     });
     
