@@ -164,6 +164,7 @@ console.log(ptopping.join(" top "));
         checkoutTotal = checkoutTotal + total;
         console.log(checkoutTotal);
        }
+                               
     });
     
    event.preventDefault();
